@@ -39,7 +39,7 @@ The algorithm simply replaces the last bit of the bytes with the consecutive bit
  In addition the code add to the image our end secret *$@FINISH@$* <br />
   and on the decode that is the way the code know where the secret end
   ### Example
-  I typed Targil1FN>python LSB.py -f flower.png -e check 1 . 2 . 3 <br />
+  I typed #python LSB.py -f flower.png -e check 1 . 2 . 3 <br />
   and that the two png files that one of them contiend the secret massage(the left)
 ![flowerr](https://user-images.githubusercontent.com/72939664/168488450-6b77daa9-25f9-43d9-8660-606180f87fb9.png)
   
