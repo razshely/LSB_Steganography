@@ -24,7 +24,7 @@ Do check the python script written to implement lsb steganography
 **00100110_00100110_00100110** <br />
 **01000011_01000011_01000011** <br />
   
-Suppose you wish to hide "A" in it. The ascii value of "dad" is **01100100_01100001_01100100**.
+Suppose you wish to hide "dad" in it. The ascii value of "dad" is **01100100_01100001_01100100**.
 The algorithm simply replaces the last bit of the bytes with the consecutive bits of the word "dad", Giving us
 
 1111001**0**_1111001**1**_1111001**1** <br />
